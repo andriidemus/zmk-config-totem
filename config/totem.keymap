@@ -70,16 +70,16 @@ label= "BASE"                              ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃ CTRL/ESC  ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃  ALT/RET  ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃SHIFT/DEL  ┃ SYM/SPACE ┃ ALT/TAB   ┃   ┃    CMD    ┃    NAV    ┃   BSPC    ┃
+//                                     ┃SHIFT/DEL  ┃ SYM/TAB   ┃ ALT/SPACE ┃   ┃    CMD    ┃    NAV    ┃   BSPC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                     &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMICOLON
-    &mt LCTRL ESC   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH        &mt RIGHT_ALT RET
+    &mt LCTRL ESC   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH        &mt RIGHT_ALT DQT
 
-                        &mt LSHFT DELETE   &lt SYM SPACE   &mt LEFT_ALT TAB       &kp LEFT_COMMAND   &lt NAV RET   &mt RSHIFT BSPC
+                        &mt LSHFT DELETE   &lt SYM TAB   &mt LEFT_ALT SPACE       &mt LEFT_COMMAND RET   &lt NAV RET   &mt RSHIFT BSPC
                         >;
                 };
 
