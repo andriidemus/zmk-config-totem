@@ -70,7 +70,7 @@ label= "BASE"                              ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃ CTRL/ESC  ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃  ALT/RET  ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃SHIFT/DEL  ┃ SYM/TAB   ┃     SPACE ┃   ┃  CMD/RET  ┃ NAV/ALT   ┃ SHIFT/BSPC┃
+//                                     ┃SHIFT/DEL  ┃ SYM/TAB   ┃     SPACE ┃   ┃  CMD/RET  ┃ NAV       ┃ SHIFT/BSPC┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -79,7 +79,7 @@ label= "BASE"                              ;
                     &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMICOLON
     &mt LCTRL ESC   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH        &mt RIGHT_ALT RET
 
-                        &mt LSHFT DELETE   &lt SYM TAB   &kp SPACE       &mt LEFT_COMMAND RET   &lt NAV RIGHT_ALT   &mt RSHIFT BSPC
+                        &mt LSHFT DELETE   &lt SYM TAB   &kp SPACE              &mt RCMD RET    &lt NAV     &mt RSHIFT BSPC
                         >;
                 };
 
